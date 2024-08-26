@@ -1,6 +1,6 @@
 ﻿char[] alphabet = "ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ".ToCharArray();	//Enter the letters of alphabet in this field.
-char[] cipherText = "GJŞVZEĞHOÖRG".ToUpper().ToCharArray();	//Enter the cipher text in this field.
-int[] matrix = { 3, 2, 4, 1, 3, 5, 0, 2, 1 };   //Enter the numbers in the key matrix with commas between them in this field. Warning! The key matrix must be a regular matrix.
+char[] cipherText = "GJŞVZEĞHOÖRG".ToUpper().ToCharArray();    //Enter the cipher text in this field.
+int[] matrix = { 3, 2, 4, 1, 3, 5, 0, 2, 1 };    //Enter the numbers in the key matrix with commas between them in this field. Warning! The key matrix must be a regular matrix.
 
 int n = (int)Math.Sqrt(matrix.Length);
 int[,] keyMatrix = new int[n, n];
